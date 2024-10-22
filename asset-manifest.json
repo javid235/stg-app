@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/stg-app/static/css/main.d0a4713c.css",
-    "main.js": "/stg-app/static/js/main.bc4d6344.js",
+    "main.js": "/stg-app/static/js/main.82816a58.js",
     "static/js/453.218f56f9.chunk.js": "/stg-app/static/js/453.218f56f9.chunk.js",
     "static/media/bs3.png": "/stg-app/static/media/bs3.fb688d05cc5f23104c99.png",
     "static/media/bs2.png": "/stg-app/static/media/bs2.51876f80d52cb1a7ad2d.png",
@@ -46,11 +46,11 @@
     "static/media/tick.svg": "/stg-app/static/media/tick.bec6b1e9729c57b918bd860057c42d93.svg",
     "static/media/close.svg": "/stg-app/static/media/close.f186e0f040c2a83252a26b8d36960d72.svg",
     "main.d0a4713c.css.map": "/stg-app/static/css/main.d0a4713c.css.map",
-    "main.bc4d6344.js.map": "/stg-app/static/js/main.bc4d6344.js.map",
+    "main.82816a58.js.map": "/stg-app/static/js/main.82816a58.js.map",
     "453.218f56f9.chunk.js.map": "/stg-app/static/js/453.218f56f9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d0a4713c.css",
-    "static/js/main.bc4d6344.js"
+    "static/js/main.82816a58.js"
   ]
 }
