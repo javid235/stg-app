@@ -1,0 +1,69 @@
+.acc-logsign-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background: #F9EBEA;
+    padding: 70px 5%;
+}
+.acc-logsign-cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    max-width: 472px;
+}
+.acc-logsign-cont h1{
+    margin-bottom: 20px;
+}
+.acc-logsign-cont input{
+    width: 100%;
+    height: 50px;
+    padding: 10px 30px;
+    border-radius: 10px;
+    border: 1px solid #BC8F8F;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 10px;
+} 
+.acc-btn-cont{
+    display: flex;
+    width: 100%;
+    justify-content: end;
+    align-items: center;
+    margin-top: 10px;
+}
+.acc-signup{
+    width: 100%;
+    height: 50px;
+    font-size: 16px;
+    font-weight:600 ;
+    background: #BC8F8F;
+    border-radius: 10px;
+    border: none;
+    color: white;
+}
+.acc-signup:hover{
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+.acc-signup:active{
+    background: #c09999;
+}
+.acc-alr-login{
+    margin-top: 20px;
+}
+.alr-login-btn{
+    text-decoration: underline;
+    font-weight: 600;
+    color:#BC8F8F;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+@media (min-width: 1000px){
+    .acc-logsign-main{
+        height: 80vh;
+    }
+}
+

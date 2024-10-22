@@ -1,0 +1,103 @@
+/* Hero.css */
+
+#hero {
+  padding: 2rem;
+  background-color: #f8eaea; /* Light pink background color */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+}
+
+.hero-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  max-width: 1200px;
+  width: 100%;
+  padding: 2rem;
+}
+
+/* Responsive styles for larger screens */
+@media (min-width: 1024px) {
+  .hero-container {
+    grid-template-columns: 1fr 1fr; /* Two equal columns for large screens */
+  }
+}
+
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hero-text h1 {
+  font-size: 2.5rem;
+  color: #a67c7c; /* Soft brown color */
+  font-weight: bold;
+}
+
+.hero-text h2 {
+  font-size: 1.5rem;
+  color: #3e3e3e; /* Dark grey color */
+  margin-top: 0.5rem;
+}
+
+.hero-text p {
+  font-size: 1rem;
+  color: #4f4f4f; /* Medium grey color */
+  line-height: 1.6;
+  margin-top: 1rem;
+}
+
+.shop-btn {
+  background-color: #c9a3a3; /* Light brown color */
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.shop-btn:hover{
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+.shop-btn:active{
+    background-color: #ccadad;
+}
+
+
+.shop-btn img {
+  margin-left: 0.5rem;
+}
+
+.hero-image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-image-container img {
+    border-radius: 30px;
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Responsive layout for smaller screens */
+@media (max-width: 1023px) {
+  .hero-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hero-text {
+    align-items: center;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+}
