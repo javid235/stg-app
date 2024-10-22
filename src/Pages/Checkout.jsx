@@ -5,6 +5,7 @@ import PaymentDetails from '../Components/CheckoutComp/PaymentDetails'
 import './CSS/Checkout.css'
 
 const Checkout = () => {
+  window.scrollTo(0,0)
   return (
     <div className='checkout-main'>
       <div className='checkout-container'>
