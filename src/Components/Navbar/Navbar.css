@@ -165,7 +165,7 @@
         background-color: #F9EBEA;
         position: fixed;
         top: 100px; /* Adjusted top value to properly align */
-        right: -100%; /* Hidden by default */
+        right: -110%; /* Hidden by default */
         z-index: 9999;
         transition: right 0.3s ease;
     }

@@ -25,20 +25,25 @@
     .featured-product-grid{
         display: grid;
         grid-template-columns: 1fr 1fr;
-        gap:8px;
+        gap:15px;
+        max-width:450px ;
     }
     #featured-pro{
-        padding: 50px 3%;
+        padding: 50px 4%;
     }
 }
   
 @media only screen and (min-width: 601px) and (max-width: 900px) {
+   #featured-pro{
+    padding: 30px;
+   }
     /* CSS styles for medium devices */
     .featured-product-grid{
         display: grid;
         grid-template-columns: 1fr 1fr;
-        row-gap: 40px;
-        column-gap: 40px;
+        row-gap: 30px;
+        column-gap: 30px;
+        max-width:600px ;
     }
 }
 @media only screen and (min-width: 901px) and (max-width: 1200px) {

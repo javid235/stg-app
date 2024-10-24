@@ -6,7 +6,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 80vh;
+  margin-left: 20px;
 }
 
 .hero-container {
@@ -23,6 +23,10 @@
   .hero-container {
     grid-template-columns: 1fr 1fr; /* Two equal columns for large screens */
   }
+  #hero{
+    height: 70vh;
+  }
+  
 }
 
 .hero-text {
