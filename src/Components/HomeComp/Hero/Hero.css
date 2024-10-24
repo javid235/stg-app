@@ -6,7 +6,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-left: 20px;
+  
 }
 
 .hero-container {
@@ -16,6 +16,7 @@
   max-width: 1200px;
   width: 100%;
   padding: 2rem;
+  margin-left: 20px;
 }
 
 /* Responsive styles for larger screens */
