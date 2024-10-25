@@ -15,8 +15,7 @@ const RelatedProducts = (props) => {
         filteredProduct.push(item)
       }
     })
-    console.log(filteredProduct)
-
+    
     useEffect(() => {
       // Function to get a specified number of random items from the all_product array
       const getRandomProducts = () => {
