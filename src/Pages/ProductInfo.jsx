@@ -4,7 +4,8 @@ import ProductInfoMain from '../Components/ProductInfoMain/ProductInfoMain';
 import './CSS/ProductInfo.css'
 import Breadcrums from '../Components/Breadcrums/Breadcrums';
 import { ShopContext } from '../Context/ShopContext';
-import FeaturedProduct from '../Components/HomeComp/FeaturedProduct/FeaturedProduct';
+import RelatedProducts from '../Components/RelatedProducts/RelatedProducts';
+
 
 
 const ProductInfo = () => {
@@ -25,7 +26,7 @@ const ProductInfo = () => {
           description={itemPro.description}
         />
       </div>
-      <FeaturedProduct title='related products'/>
+      <RelatedProducts category={itemPro.category} />
     </div>
   )
 }

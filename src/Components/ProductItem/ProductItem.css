@@ -2,6 +2,7 @@
   background-color: white;
   border-radius: 20px;
   transition: 0.2s ease;
+  transition: 0.3s;
 }
 .product-cont:hover {
   box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.15);
@@ -12,6 +13,7 @@
   height: 255px;
   object-fit: cover;
   border-radius: 20px 20px 0 0;
+  transition: 0.3s;
 }
 .product-cont img:hover{
   scale: 1.010;

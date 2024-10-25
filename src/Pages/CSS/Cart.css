@@ -148,9 +148,15 @@
 .del-con{
     padding: 5px 10px;
     border: none;
-    background-color: #da3e3e;
+    background-color: #e05858;
     color: white;
     border-radius: 3px;
+}
+.del-con:hover{
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1)
+}
+.del-con:active{
+    background-color: #ca4c4c;
 }
 .cancel-con{
     margin-right: 10px;

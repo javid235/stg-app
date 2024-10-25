@@ -6,7 +6,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  
 }
 
 .hero-container {
@@ -16,7 +15,6 @@
   max-width: 1200px;
   width: 100%;
   padding: 2rem;
-  margin-left: 20px;
 }
 
 /* Responsive styles for larger screens */
@@ -24,10 +22,9 @@
   .hero-container {
     grid-template-columns: 1fr 1fr; /* Two equal columns for large screens */
   }
-  #hero{
+  #hero {
     height: 70vh;
   }
-  
 }
 
 .hero-text {
@@ -66,14 +63,14 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: 0.3s;
 }
-.shop-btn:hover{
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+.shop-btn:hover {
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
 }
-.shop-btn:active{
-    background-color: #ccadad;
+.shop-btn:active {
+  background-color: #bd9999;
 }
-
 
 .shop-btn img {
   margin-left: 0.5rem;
@@ -81,15 +78,16 @@
 
 .hero-image-container {
   display: flex;
-  justify-content: center;
+  justify-content: end;
   align-items: center;
 }
 
 .hero-image-container img {
-    border-radius: 30px;
-    max-width: 100%;
-    height: auto;
-    display: block;
+  border-radius: 30px;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  justify-self: end;
 }
 
 /* Responsive layout for smaller screens */

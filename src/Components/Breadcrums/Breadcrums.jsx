@@ -16,7 +16,7 @@ const Breadcrums = (props) => {
           <p>{props.category}</p>
         </Link>
         <img src={arrow_icon} alt='' />
-        <p>{props.name}</p>
+        <p className="bread-pro-name">{props.name}</p>
       </div>
     </div>
   )

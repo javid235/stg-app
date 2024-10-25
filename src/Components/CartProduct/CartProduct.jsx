@@ -53,6 +53,7 @@ const CartProduct = () => {
                 <React.Fragment key={e.id}>
                   <div className={`cart-product`}>
                     <div className='pro-info'>
+                      <Link style={{textDecoration: "none"}} to={`/productinfo/${e.id}`}>
                       <div className='pro-info-left'>
                         <div className='proinfoimg'>
                           <img
@@ -62,7 +63,7 @@ const CartProduct = () => {
                           />
                         </div>
                         <p>{e.name}</p>
-                      </div>
+                      </div></Link>
                     </div>
                     <div className='pro-price'>
                       <div className='pro-price-right'>
