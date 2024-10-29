@@ -4,7 +4,7 @@
     align-items: start;
     background-color: #F9EBEA;
     padding: 100px 2%;
-    padding-bottom: 170px;
+    padding-bottom: 200px;
 }
 .cart-container{
     display: flex;
@@ -329,11 +329,7 @@
     width: 80px;
 }
 }
-@media (min-width: 1000px){
-    #cart{
-        height: 100vh;
-    }
-}
+
 
 
 

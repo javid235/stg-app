@@ -5,7 +5,7 @@
   justify-content: center;
   width: 100%;
   background-color: #f8eae8;
-
+  padding-bottom: 200px;
 }
 .checkout-container {
   display: flex;
@@ -20,9 +20,6 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: start;
-  }
-  .checkout-main{
-    height: 90vh;
   }
 }
 
