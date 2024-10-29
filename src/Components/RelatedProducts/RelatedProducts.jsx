@@ -10,10 +10,11 @@ const RelatedProducts = (props) => {
 
     // filters the product based on category in all_product
     let filteredProduct = []
-    all_product.map((item, i) => {
+    all_product.map((item) => {
       if (item.category === props.category) {
         filteredProduct.push(item)
       }
+      return null;
     })
     
     useEffect(() => {
@@ -26,6 +27,7 @@ const RelatedProducts = (props) => {
       }
 
       setRandomProducts(getRandomProducts()) // Update the state with random products
+      // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [all_product, numberOfItems])
 
   return (
