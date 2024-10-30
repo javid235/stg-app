@@ -16,26 +16,22 @@ const customIcon = L.icon({
 })
 
 const Contacts = () => {
-    const initialPosition = [36.59792, -119.4588] // Example coordinates for London
-    const zoomLevel = 15
+  const initialPosition = [36.59792, -119.4588] // Example coordinates for London
+  const zoomLevel = 15
   return (
     <section id='contact-us'>
-      <div class='contact-container'>
-        <div class='cont-left'>
-          <div class='left-text'>
+      <div className='contact-container'>
+        <div className='cont-left'>
+          <div className='left-text'>
             <img src='/img/main-icon.svg' alt='' />
             <h3>youremail@gmail.com</h3>
           </div>
-          <div class='left-text'>
+          <div className='left-text'>
             <img src='/img/location-icon.svg' alt='' />
             <h3>Your location - Abcd, US, 12039</h3>
           </div>
-          
-          <MapContainer
-            id='map'
-            center={initialPosition}
-            zoom={zoomLevel}
-          >
+
+          <MapContainer id='map' center={initialPosition} zoom={zoomLevel}>
             <TileLayer
               url='https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png'
               attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
@@ -46,9 +42,8 @@ const Contacts = () => {
               </Popup>
             </Marker>
           </MapContainer>
-          
         </div>
-        <div class='cont-right'>
+        <div className='cont-right'>
           <h1>CONTACT US</h1>
           <input type='text' placeholder='Name' />
           <input type='text' placeholder='Email' />

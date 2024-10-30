@@ -2,6 +2,7 @@ import React from 'react'
 import './About.css'
 import about1 from '../../Assets/about1.svg'
 import about2 from '../../Assets/about2.svg'
+import { motion } from 'framer-motion'
 
 function About() {
   return (
@@ -19,12 +20,18 @@ function About() {
           </p>
         </div>
         <div className='about-img'>
-          <img src={about1} alt='' />
+          <motion.img
+            whileHover={{ scale: 1.2 }}
+            src={about1}
+            alt=''
+          />
         </div>
       </div>
       <div className='about-container'>
         <div className='about-img-2'>
-          <img src={about2} alt='' />
+          <motion.img 
+          whileHover={{ scale: 1.2 }}
+          src={about2} alt='' />
         </div>
         <div className='about-text-2'>
           <h1>OUR STORY</h1>
