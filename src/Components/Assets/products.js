@@ -180,7 +180,7 @@ let products = [
   {
     id: 20,
     category: 'Bath Milks',
-    name: 'Vanilla Bean Bath Milk',
+    name: 'Vanilla Bean',
     description: 'Creamy Vanilla Bath Milk',
     price: 5.99,
     image: [bm5, bm5, bm5, bm5],
